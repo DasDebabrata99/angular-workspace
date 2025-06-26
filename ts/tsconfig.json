@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+      "module": "ESNext",       // Ensure we're using ESNext module system
+      "target": "ESNext",       // Target ESNext for the compiled code
+      "moduleResolution": "Node", // Use Node.js module resolution strategy
+      "esModuleInterop": true,   // Ensures compatibility with CommonJS modules
+      "skipLibCheck": true,      // Skip checking of declaration files
+      "strict": false,            // Enable strict mode for safety
+      "outDir": "./dist",        // Specify output directory for compiled code
+      "allowJs": true,
+      "experimentalDecorators": true,
+      "emitDecoratorMetadata": true
+    },
+    "include": ["index.ts"],      // Include your .ts file(s)
+    "exclude": ["node_modules"]   // Exclude node_modules
+}
+  

@@ -1,0 +1,29 @@
+.body{
+    display: flex;
+    height: 100%;
+   
+}
+html,body{
+    background-color: #80808033;
+    margin:0px !important;
+    height:100%;
+}
+.side-bar{
+
+    width: 200px;
+    height: 100%;
+    background-color: white;
+}
+.hamburger>img{
+    width: 30px;
+    margin: 10px;
+}
+
+.content{
+    
+}
+
+.side-bar-element{
+    padding:20px;
+    display:flex;
+}

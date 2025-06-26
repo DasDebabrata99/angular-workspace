@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+
+  <div>
+    Enter length
+    <input type="text" name = "length" (change)="lengthChanged($event)">
+  </div>
+  
+  <div>
+    Use Letters: <input type="checkbox" (change)="lettersClicked()" name="letters" id="letters">
+  </div>
+  <div>
+    Use Numbers: <input type="checkbox" (change)="numberClicked()" name="numbers" id="numbers">
+  </div>
+  
+  <div>
+    
+    <input type="button" (click)="generatePassword()"  value="Genenrate">
+  </div>
+
+  <label name=""  value="password">{{password}}</label>
+</body>
+</html>

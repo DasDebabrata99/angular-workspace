@@ -1,0 +1,4 @@
+<div class="container">
+<app-space-bar (submitted)="OnTermSubmit($event)"></app-space-bar>
+<app-page-list *ngIf="pages.length" [pages]="pages"></app-page-list>
+</div>

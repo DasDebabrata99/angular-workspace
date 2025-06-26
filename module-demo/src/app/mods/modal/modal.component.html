@@ -1,0 +1,13 @@
+<div (click)="OnCloseClick()" class="ui dimmer visible active">
+    <div (click)="$event.stopPropagation()" class="ui modal visible active">
+        <i (click)="OnCloseClick()" class="close icon"></i>
+        <ng-content select="[modal-title]"></ng-content>
+        <div class="content">
+            <p>Sone Content for Modal window should go right here</p>
+        </div>
+        <div class="action action-default">
+            <button (click)="OnCloseClick()" class="ui button">OK</button>
+        </div>
+        <ng-content></ng-content>
+    </div>
+</div>
